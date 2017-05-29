@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/visionappscz/stylelint-config-standard-order.git"
+    "url": "https://github.com/visionappscz/stylelint-config-visionapps-order.git"
   },
   "main": "index.js",
   "files": [
