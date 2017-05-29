@@ -7,4 +7,12 @@
 
 VisionApps' shareable config of properties order for [stylelint](https://github.com/stylelint/stylelint).
 
-Lint [properties order](./index.js) with [stylelint-order](https://github.com/hudochenkov/stylelint-order).
+This config allows linting properties by defined [order](./index.js). It requires [stylelint](https://github.com/stylelint/stylelint) and its [stylelint-order](https://github.com/hudochenkov/stylelint-order) plugin.
+
+1. Install `stylelint` and `stylelint-order`
+
+    ```sh
+    yarn add stylelint stylelint-order --dev
+    ```
+
+2. Add `"extends": "stylelint-config-visionapps-order"` to your `.stylelintrc` file
