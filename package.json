@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-visionapps-order",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "VisionApps' shareable config of properties order for stylelint",
   "keywords": [
     "stylelint",
@@ -19,18 +19,18 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^3.17.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0",
-    "jest": "^19.0.0",
-    "stylelint": "^7.9.0",
-    "stylelint-order": "^0.4.4"
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "stylelint": "^8.2.0",
+    "stylelint-order": "^0.7.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.9.0",
-    "stylelint-order": "^0.4.4"
+    "stylelint": "^8.2.0",
+    "stylelint-order": "^0.7.0"
   },
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
