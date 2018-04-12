@@ -12,7 +12,7 @@ This config allows linting properties by defined [order](./index.js). It require
 1. Install `stylelint` and `stylelint-order`
 
     ```sh
-    $ yarn add stylelint stylelint-order --dev
+    $ npm i -D stylelint stylelint-order
     ```
 
 2. Add `"extends": "stylelint-config-visionapps-order"` to your `.stylelintrc` file
