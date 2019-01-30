@@ -1,16 +1,16 @@
-const config = require('../');
 const stylelint = require('stylelint');
+const config = require('../');
 
 const validCss = (`
 .selector::before {
     content: '';
-    position: relative;    
+    position: relative;
 }
 `);
 
 const invalidCss = (`
 .selector::before {
-    position: relative;    
+    position: relative;
     content: '';
 }
 `);
