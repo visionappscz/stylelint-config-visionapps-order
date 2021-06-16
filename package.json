@@ -1,6 +1,6 @@
 {
   "name": "@visionappscz/stylelint-config-visionapps-order",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "VisionApps' shareable config of properties order for stylelint",
   "keywords": [
     "stylelint",
