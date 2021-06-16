@@ -1,22 +1,35 @@
 # stylelint-config-visionapps-order
 
 [![NPM version](http://img.shields.io/npm/v/@visionappscz/stylelint-config-visionapps-order.svg)](https://www.npmjs.org/package/@visionappscz/stylelint-config-visionapps-order)
-[![Build Status](https://travis-ci.org/visionappscz/stylelint-config-visionapps-order.svg?branch=master)](https://travis-ci.org/visionappscz/stylelint-config-visionapps-order)
-[![dependency Status](https://david-dm.org/visionappscz/stylelint-config-visionapps-order/status.svg)](https://david-dm.org/visionappscz/stylelint-config-visionapps-order)
-[![peerDependency Status](https://david-dm.org/visionappscz/stylelint-config-visionapps-order/peer-status.svg)](https://david-dm.org/visionappscz/stylelint-config-visionapps-order?type=peer)
-[![devDependency Status](https://david-dm.org/visionappscz/stylelint-config-visionapps-order/dev-status.svg)](https://david-dm.org/visionappscz/stylelint-config-visionapps-order?type=dev)
+[![Build Status](https://github.com/visionappscz/stylelint-config-visionapps-order/workflows/Build%20and%20run%20tests/badge.svg)](https://github.com/visionappscz/stylelint-config-visionapps-order/actions)
+![dependencies Status](https://img.shields.io/david/visionappscz/stylelint-config-visionapps-order)
+![devDependencies Status](https://img.shields.io/david/dev/visionappscz/stylelint-config-visionapps-order)
+[![Downloads per month](https://img.shields.io/npm/dm/@visionappscz/stylelint-config-visionapps-order.svg?style=flat)](https://npmcharts.com/compare/@visionappscz/stylelint-config-visionapps-order)
 
-VisionApps' shareable config of properties order for
-[Stylelint](https://github.com/stylelint/stylelint).
+> VisionApps' shareable config of properties order for
+> [Stylelint](https://github.com/stylelint/stylelint).
 
-This config allows linting properties by defined [order](./index.js). It requires
-[Stylelint](https://github.com/stylelint/stylelint) and its
-[stylelint-order](https://github.com/hudochenkov/stylelint-order) plugin.
+This config allows linting properties by defined [order](./index.js).
 
-1. Install `stylelint`, `stylelint-order` and this config:
+## Installation
 
-    ```sh
-    $ npm install --save-dev stylelint stylelint-order @visionappscz/stylelint-config-visionapps-order
-    ```
+Install [Stylelint](https://github.com/stylelint/stylelint),
+[stylelint-order](https://github.com/hudochenkov/stylelint-order) plugin, and
+this config:
 
-2. Add `"extends": "@visionappscz/stylelint-config-visionapps-order"` to your `.stylelintrc` file.
+```bash
+$ npm install --save-dev @visionappscz/stylelint-config-visionapps-order
+```
+
+👉 **Tip:** This config pairs up nicely with
+[stylelint-config-visionapps](https://github.com/visionappscz/stylelint-config-visionapps).
+
+## Usage
+
+Apply the config in your Stylelint config:
+
+```json
+{
+  "extends": "@visionappscz/stylelint-config-visionapps-order"
+}
+```
