@@ -125,6 +125,7 @@ module.exports = {
       'font-variant',
       'font-display',
       'src',
+      'letter-spacing',
       'text-align',
       'text-decoration',
       'text-decoration-color',
