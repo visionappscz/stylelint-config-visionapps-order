@@ -1,5 +1,5 @@
 const stylelint = require('stylelint');
-const config = require('../');
+const config = require('..');
 
 const validCss = (`
 .selector::before {
