@@ -1,4 +1,8 @@
-# stylelint-config-visionapps-order
+# DEPRECATED — stylelint-config-visionapps-order
+
+⚠️ This package is deprecated in favour of
+[stylelint-config-visionapps/order](https://github.com/visionappscz/stylelint-config-visionapps)
+config.
 
 [![NPM version](http://img.shields.io/npm/v/@visionappscz/stylelint-config-visionapps-order.svg)](https://www.npmjs.org/package/@visionappscz/stylelint-config-visionapps-order)
 [![Build Status](https://github.com/visionappscz/stylelint-config-visionapps-order/workflows/Build%20and%20run%20tests/badge.svg)](https://github.com/visionappscz/stylelint-config-visionapps-order/actions)
